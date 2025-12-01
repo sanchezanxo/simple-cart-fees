@@ -1,0 +1,217 @@
+/**
+ * Admin styles for Simple Cart Fees.
+ *
+ * @package Simple_Cart_Fees
+ */
+
+.scf-admin-wrap {
+	max-width: 1200px;
+}
+
+.scf-admin-container {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	margin-top: 20px;
+	padding: 20px;
+}
+
+/* Fees table */
+#scf-fees-table {
+	margin-bottom: 20px;
+}
+
+#scf-fees-table th,
+#scf-fees-table td {
+	padding: 10px 8px;
+	vertical-align: middle;
+}
+
+.scf-col-drag {
+	width: 30px;
+	cursor: move;
+}
+
+.scf-drag-handle {
+	color: #c3c4c7;
+	cursor: move;
+}
+
+.scf-drag-handle:hover {
+	color: #787c82;
+}
+
+.scf-col-name {
+	width: 25%;
+}
+
+.scf-col-price {
+	width: 12%;
+}
+
+.scf-col-type {
+	width: 10%;
+}
+
+.scf-col-condition {
+	width: 15%;
+}
+
+.scf-col-active {
+	width: 8%;
+}
+
+.scf-col-actions {
+	width: 15%;
+}
+
+.scf-active-yes {
+	color: #00a32a;
+	font-weight: 500;
+}
+
+.scf-active-no {
+	color: #d63638;
+}
+
+.scf-no-fees td {
+	text-align: center;
+	color: #646970;
+	font-style: italic;
+}
+
+.scf-fee-row.ui-sortable-helper {
+	background: #f6f7f7;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.scf-fee-row.ui-sortable-placeholder {
+	visibility: visible !important;
+	background: #f0f6fc;
+	border: 1px dashed #2271b1;
+}
+
+/* Actions */
+.scf-actions {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-top: 20px;
+}
+
+.scf-actions .spinner {
+	float: none;
+	margin: 0;
+}
+
+/* Modal */
+.scf-modal {
+	position: fixed;
+	z-index: 100000;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.scf-modal-content {
+	background-color: #fff;
+	margin: 5% auto;
+	border: 1px solid #c3c4c7;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+	width: 90%;
+	max-width: 600px;
+	max-height: 80vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.scf-modal-content h2 {
+	margin: 0;
+	padding: 15px 20px;
+	border-bottom: 1px solid #c3c4c7;
+	background: #f6f7f7;
+}
+
+.scf-modal-close {
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	font-size: 28px;
+	font-weight: bold;
+	color: #646970;
+	cursor: pointer;
+}
+
+.scf-modal-close:hover {
+	color: #000;
+}
+
+.scf-modal-body {
+	padding: 20px;
+	overflow-y: auto;
+	flex: 1;
+}
+
+.scf-modal-footer {
+	padding: 15px 20px;
+	border-top: 1px solid #c3c4c7;
+	background: #f6f7f7;
+	text-align: right;
+}
+
+.scf-modal-footer .button {
+	margin-left: 10px;
+}
+
+/* Form fields */
+.scf-field {
+	margin-bottom: 15px;
+}
+
+.scf-field label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+
+.scf-field input[type="text"],
+.scf-field input[type="number"],
+.scf-field select {
+	width: 100%;
+}
+
+.scf-field .small-text {
+	width: 100px;
+}
+
+.scf-field .description {
+	color: #646970;
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+.scf-field-row {
+	display: flex;
+	gap: 20px;
+}
+
+.scf-field-half {
+	flex: 1;
+}
+
+/* Notices */
+#scf-notices .notice {
+	margin: 0 0 15px;
+}
+
+/* Order meta box */
+.scf-order-fees-list {
+	margin: 0;
+	padding-left: 20px;
+}
+
+.scf-order-fees-list li {
+	margin-bottom: 5px;
+}

@@ -1,0 +1,248 @@
+# Copyright (C) 2025 Simple Cart Fees
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Cart Fees 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/simple-cart-fees\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-30T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: simple-cart-fees\n"
+
+#. Plugin Name of the plugin
+msgid "Simple Cart Fees"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add configurable fees to WooCommerce cart and checkout. Supports required and optional fees with conditions."
+msgstr ""
+
+#: simple-cart-fees.php:59
+msgid "%s requires WooCommerce to be installed and active."
+msgstr ""
+
+#: includes/class-admin.php:44
+#: includes/class-admin.php:45
+msgid "Simple Cart Fees"
+msgstr ""
+
+#: includes/class-admin.php:80
+msgid "Are you sure you want to delete this fee?"
+msgstr ""
+
+#: includes/class-admin.php:81
+msgid "Fees saved successfully."
+msgstr ""
+
+#: includes/class-admin.php:88
+msgid "An error occurred. Please try again."
+msgstr ""
+
+#: includes/class-admin.php:89
+msgid "Internal name is required."
+msgstr ""
+
+#: includes/class-admin.php:90
+msgid "Public name is required."
+msgstr ""
+
+#: includes/class-admin.php:91
+msgid "Price must be a valid positive number."
+msgstr ""
+
+#: includes/class-admin.php:106
+msgid "Name"
+msgstr ""
+
+#: includes/class-admin.php:104
+msgid "Price"
+msgstr ""
+
+#: includes/class-admin.php:105
+msgid "Type"
+msgstr ""
+
+#: includes/class-admin.php:106
+msgid "Condition"
+msgstr ""
+
+#: includes/class-admin.php:107
+msgid "Active"
+msgstr ""
+
+#: includes/class-admin.php:108
+msgid "Actions"
+msgstr ""
+
+#: includes/class-admin.php:113
+msgid "No fees configured. Click \"Add Fee\" to create one."
+msgstr ""
+
+#: includes/class-admin.php:123
+msgid "Add Fee"
+msgstr ""
+
+#: includes/class-admin.php:126
+msgid "Save Changes"
+msgstr ""
+
+#: includes/class-admin.php:134
+msgid "Edit Fee"
+msgstr ""
+
+#: includes/class-admin.php:141
+msgid "Internal Name"
+msgstr ""
+
+#: includes/class-admin.php:143
+msgid "For admin identification only."
+msgstr ""
+
+#: includes/class-admin.php:147
+msgid "Public Name"
+msgstr ""
+
+#: includes/class-admin.php:149
+msgid "Displayed to customers at checkout and in emails."
+msgstr ""
+
+#: includes/class-admin.php:154
+msgid "Price (incl. tax)"
+msgstr ""
+
+#: includes/class-admin.php:156
+msgid "Enter the price including tax."
+msgstr ""
+
+#: includes/class-admin.php:160
+msgid "Tax Class"
+msgstr ""
+
+#: includes/class-admin.php:170
+msgid "Required"
+msgstr ""
+
+#: includes/class-admin.php:171
+msgid "Optional"
+msgstr ""
+
+#: includes/class-admin.php:175
+msgid "Checkbox Text"
+msgstr ""
+
+#: includes/class-admin.php:177
+msgid "Text shown next to the checkbox."
+msgstr ""
+
+#: includes/class-admin.php:181
+msgid "Help Text"
+msgstr ""
+
+#: includes/class-admin.php:183
+msgid "Small description below the checkbox."
+msgstr ""
+
+#: includes/class-admin.php:188
+msgid "Always"
+msgstr ""
+
+#: includes/class-admin.php:189
+msgid "Cart minimum"
+msgstr ""
+
+#: includes/class-admin.php:194
+msgid "Minimum Cart Subtotal"
+msgstr ""
+
+#: includes/class-admin.php:206
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-admin.php:207
+msgid "Apply"
+msgstr ""
+
+#: includes/class-admin.php:259
+msgid "Min. %s"
+msgstr ""
+
+#: includes/class-admin.php:264
+msgid "Yes"
+msgstr ""
+
+#: includes/class-admin.php:264
+msgid "No"
+msgstr ""
+
+#: includes/class-admin.php:267
+msgid "Edit"
+msgstr ""
+
+#: includes/class-admin.php:268
+msgid "Delete"
+msgstr ""
+
+#: includes/class-admin.php:283
+msgid "Permission denied."
+msgstr ""
+
+#: includes/class-admin.php:321
+msgid "Cart Fees"
+msgstr ""
+
+#: includes/class-admin.php:342
+msgid "No fees applied to this order."
+msgstr ""
+
+#: includes/class-admin.php:362
+msgid "Fees"
+msgstr ""
+
+#: includes/class-frontend.php:95
+msgid "Additional Options"
+msgstr ""
+
+#: includes/class-frontend.php:213
+msgid "Applied fees:"
+msgstr ""
+
+#: includes/class-simple-cart-fees.php:151
+msgid "Standard"
+msgstr ""
+
+#: includes/class-blocks.php:73
+msgid "Optional fees available for checkout"
+msgstr ""
+
+#: includes/class-blocks.php:82
+msgid "Fee ID"
+msgstr ""
+
+#: includes/class-blocks.php:89
+msgid "Checkbox label"
+msgstr ""
+
+#: includes/class-blocks.php:96
+msgid "Help text"
+msgstr ""
+
+#: includes/class-blocks.php:103
+msgid "Fee price"
+msgstr ""
+
+#: includes/class-blocks.php:110
+msgid "Formatted price HTML"
+msgstr ""
+
+#: includes/class-blocks.php:117
+msgid "Whether fee is selected"
+msgstr ""
+
+#: assets/js/blocks-frontend.js:90
+msgid "Additional Options"
+msgstr ""

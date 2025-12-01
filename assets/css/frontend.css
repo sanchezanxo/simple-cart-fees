@@ -1,0 +1,51 @@
+/**
+ * Frontend styles for Simple Cart Fees.
+ *
+ * Minimal styling to integrate with theme defaults.
+ *
+ * @package Simple_Cart_Fees
+ */
+
+.scf-optional-fees {
+	margin: 20px 0;
+	padding: 15px;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	background: #f9f9f9;
+}
+
+.scf-optional-fees h3 {
+	margin: 0 0 15px;
+	font-size: 1.1em;
+}
+
+.scf-optional-fee {
+	margin-bottom: 12px;
+}
+
+.scf-optional-fee:last-child {
+	margin-bottom: 0;
+}
+
+.scf-optional-fee label {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	cursor: pointer;
+}
+
+.scf-optional-fee input[type="checkbox"] {
+	margin-top: 3px;
+	flex-shrink: 0;
+}
+
+.scf-fee-price {
+	color: #666;
+	white-space: nowrap;
+}
+
+.scf-fee-help {
+	margin: 4px 0 0 24px;
+	font-size: 0.9em;
+	color: #666;
+}
