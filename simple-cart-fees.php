@@ -46,14 +46,14 @@ add_action(
  *
  * @return bool
  */
-function scf_is_woocommerce_active() {
+function simple_cart_fees_is_woocommerce_active() {
 	return class_exists( 'WooCommerce' );
 }
 
 /**
  * Display admin notice if WooCommerce is not active.
  */
-function scf_woocommerce_missing_notice() {
+function simple_cart_fees_woocommerce_missing_notice() {
 	?>
 	<div class="notice notice-error">
 		<p>
@@ -75,14 +75,11 @@ function scf_woocommerce_missing_notice() {
 /**
  * Initialize the plugin.
  */
-function scf_init() {
-	if ( ! scf_is_woocommerce_active() ) {
-		add_action( 'admin_notices', 'scf_woocommerce_missing_notice' );
+function simple_cart_fees_init() {
+	if ( ! simple_cart_fees_is_woocommerce_active() ) {
+		add_action( 'admin_notices', 'simple_cart_fees_woocommerce_missing_notice' );
 		return;
 	}
-
-	// Load text domain.
-	load_plugin_textdomain( 'simple-cart-fees', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 
 	// Load classes.
 	require_once SCF_PLUGIN_DIR . 'includes/class-simple-cart-fees.php';
@@ -93,15 +90,15 @@ function scf_init() {
 	// Initialize main class.
 	Simple_Cart_Fees::get_instance();
 }
-add_action( 'plugins_loaded', 'scf_init' );
+add_action( 'plugins_loaded', 'simple_cart_fees_init' );
 
 /**
  * Activation hook.
  */
-function scf_activate() {
+function simple_cart_fees_activate() {
 	// Initialize default option if not exists.
 	if ( false === get_option( SCF_OPTION_NAME ) ) {
 		add_option( SCF_OPTION_NAME, array() );
 	}
 }
-register_activation_hook( __FILE__, 'scf_activate' );
+register_activation_hook( __FILE__, 'simple_cart_fees_activate' );
